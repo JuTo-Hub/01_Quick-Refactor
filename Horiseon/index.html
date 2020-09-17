@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
+    <!-- Added reset.css style sheet. -->
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Changed Title to Horiseon Homepage -->
@@ -28,42 +29,48 @@
             </ul>
         </nav>
     </header>
-
+    <!-- Removed div tag, added img & alt tag changed class=hero to id=hero. -->
     <img src="./assets/images/digital-marketing-meeting.jpg" id="hero" alt="Horiseon employees in a strategy meeting"/>
-    <!-- Changed div to section, added id="features" -->
+    <!-- Changed div to section, added id="features". -->
     <section id="features">
+        <!-- Added h2 tag "Features" used "visually hidden" for accessibility. -->
         <h2 class="visually-hidden">Features</h2>
-        <!-- Added Element id="search-engine-optimization, links to <a> tag" , changed div tags to section tags -->
+        <!-- changed Added id="search-engine-optimization", links to <a> tag. -->
+            <!-- Removed class="search-engine-optimization". Changed div tags to section tags. -->
         <section id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" />
+                <!-- Changed h2 tag to h3 tag. Removed class="float-left". -->
                 <h3>Search Engine Optimization</h3>
                 <p>The dominance of mobile internet use means that users are searching for the right business 
                     as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) 
                     allows you to increase your visibility and find the right customers for your business.</p>
         </section>
-
+        <!-- Changed div tags to section tags, removed class="online-reputation-management"  -->
         <section id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" 
                 alt="Laptop showing a graph titled reputation with an increasing arc." />
+                <!-- Changed h2 tag to h3 tag. Removed class="float-right". -->
                 <h3>Online Reputation Management</h3>
                 <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an 
                     internet connection to say whatever they want about your business. Online Reputation Management gives 
                     you the control over what potential customers see when they search for your business.</p>
         </section>
-
+        <!-- Changed div tags to section tags, removed class="social-media-marketing" -->
         <section id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg"
                 alt="A group of people at a table with many references to social media such as Tweet, Share, Media & Like" />
+                <!-- Changed h2 tag to h3 tag. Removed class="float-left". -->
                 <h3>Social Media Marketing</h3>
                 <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps 
                     you determine which platforms are suited to your brand, using analytics to find the right markets 
                     and increase your lead generation.</p>
         </section>
     </section>
-
+    <!-- Changed class="benefits" to id="benefits" -->
     <section id="benefits">
+        <!-- Added h2 tag "Benefits" used "visually hidden" for accessibility. -->
         <h2 class="visually-hidden">Benefits</h2>
-        <!-- Changed div tags to article tags. Grouped all articles into one class.  -->
+        <!-- Changed div tags to section tags. Removed all unnecessary class tags. -->
         <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png"
@@ -88,8 +95,9 @@
     </section>
     <!-- Replaced div tag with footer tag -->
     <footer>
-        <!-- Replaced h2 tag with h4. -->
+        <!-- Replaced h2 tag with p tag. -->
         <p>Made with ❤️️ by Horiseon</p>
+        <!-- Replaced <p> tag with <small> tag. -->
         <small>&copy; 2019 Horiseon Social Solution Services, Inc.</small>
     </footer>
 </body>
