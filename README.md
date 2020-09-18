@@ -1,4 +1,4 @@
-# Code-Refractory-Project
+# The Quick Refractor
 
 The goal of this project was to clean up the code while keeping the same style on the page. 
 
@@ -19,14 +19,15 @@ The goal of this project was to clean up the code while keeping the same style o
 * Removed background img from css and added it to the html file.
 
 
+*__Here is two photos of the working website!__*
+
+![Horiseon 1](https://user-images.githubusercontent.com/69815895/93551498-9fed5180-f933-11ea-875d-6b8ebe293116.PNG)
+![Horiseon 2](https://user-images.githubusercontent.com/69815895/93551500-a24fab80-f933-11ea-8716-97b96656a8b5.PNG)
 
 
-![Horiseon_1](https://user-images.githubusercontent.com/69815895/93550248-9e6e5a00-f930-11ea-8886-7fb79c8044e2.png)
-![Horiseon_2](https://user-images.githubusercontent.com/69815895/93550284-b1812a00-f930-11ea-89fc-9df97b0b40cb.png)
 
+*__Links to my working site:__*
 
-Links to my working site:
+[Repository](https://github.com/JuTo-Hub/Quick-Refractor)
 
-[Repository](https://github.com/JuTo-Hub/Code-Refractory-Project)
-
-[Website](https://juto-hub.github.io/Code-Refractory-Project/)
+[Website](https://juto-hub.github.io/Quick-Refractor/)
