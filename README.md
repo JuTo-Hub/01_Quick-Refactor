@@ -1,4 +1,4 @@
-# The Quick Refractor
+# The Quick Refactor
 
 The goal of this project was to clean up the code while keeping the same style on the page. 
 
